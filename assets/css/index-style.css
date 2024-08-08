@@ -3,42 +3,21 @@ body {
     font-size: normal;
 }
 
-.card1 {
-    width: 18rem;
-    padding-left: 12px;
-    padding-right: 12px;
+a:hover {
+    color: gray;
 }
 
-.card2 {
-    width: 18rem;
-    padding-left: 12px;
-    padding-right: 12px;
+#about-me {
+    background-color: grey;
 }
 
-.card3 {
-    width: 18rem;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.skill-card {
-    padding-left: 32rem;
-    margin: auto;
-}
-
-
-.card-img-top {
-    width: 50px;
-    height: 50px;
-}
-
-.content-text {
-    padding-left: 80px;
-
+.card-img-top {   
+    width: 64px;
+    height: 64px;
 }
 
 .jumbotron {
-    background-color: white;
+    background-color: grey;
 
 }
 
@@ -49,17 +28,12 @@ body {
     object-fit: contain;
 }
 
-.skill-card {
-    align-content: center;
-
+.nav-link {
+    color: white;
 }
 
-
-@media (min-width: 768px) {
-    .navbar-nav.navbar-center {
-      position: absolute;
-      left: 50%;
-      transform: translatex(-50%);
-    }
+.profile-img {
+    width: 512px;
+    height: 512px;
 }
-  
+
