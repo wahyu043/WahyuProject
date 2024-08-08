@@ -1,39 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index-style.css">
-    <title>Wahyu Mahmudiyanto</title>
+    <title>Beranda</title>
 </head>
+
 <body>
-    <header>
-        <!--Navbar-->
-        <div class="bar-navigasi">
-            <ul>
-                <li>
-                    <a href="#beranda">Beranda</a>
-                </li>
-                <li>
-                    <a href="#clent">My Project</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
+   
+    <nav class="navbar navbar-inverse">  <!--Navbar-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav navbar-center">
+                    <li>
+                        <a href="#">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#">My Project</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!--Akhir navbar-->
-        <!--Jumbotron-->
-        <div class="jumbotron">
-            <h2>Hello, I am Wahyu Mahmudiyanto</h2>
-            <h4>A SEO Specialist and Website Developer</h4>
-            <p>SEO is my current focus, my fascination extends to the broader world of website development.<br>
-                I believe the two disciplines work hand-in-hand to create a powerful online presence.
-            </p>
-            <button type="button" >Contact Me</button>
+    </nav> <!--Akhir navbar-->
+    <section> <!--Jumbotron-->
+        <header> 
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 content-text">
+                            <h2>Hello, I am Wahyu Mahmudiyanto</h2content-text>
+                            <h4>A SEO Specialist and Website Developer</h4>
+                            <p>SEO is my current focus, my fascination extends to the broader world of website development.</p>
+                            <a href="#" class="btn-jumbo btn btn-primary" role="button">Contact Me</a>    
+                       </div>
+                       <div class="col-md-6">
+                            <img class="jumbo-img img-responsive" src="assets/img/lauren-mancke-aOC7TSLb1o8-unsplash.webp" alt="Foto by Lauren Mancke - Unsplash">
+                        </div>    
+                    </div>
+                </div>
+            </div> 
+        </header>
+    </section> <!--Akhir jumbotron-->
+
+    <section> <!--Skill-->
+        <div class="container">
+            <div class="row skill-card text-center">
+                <div class="card card1 col-sm-4">
+                    <img src="assets/img/www.webp" class="card-img-top" alt="Www icons created by Freepik - Flaticon">
+                    <div class="card-body">
+                        <h5 class="card-tittle">Search Engine Optimization</h5>
+                        <p class="card-text">Experienced more than a year in SEO Specialist</p>
+                    </div>
+                </div>
+                <div class="card card2 col-sm-4">
+                    <img src="assets/img/www.webp" class="card-img-top" alt="Www icons created by Freepik - Flaticon">
+                    <div class="card-body">
+                        <h5 class="card-tittle">Search Engine Optimization</h5>
+                        <p class="card-text">Experienced more than a year in SEO Specialist</p>
+                    </div>
+                </div>
+                <div class="card card3 col-sm-4">
+                    <img src="assets/img/www.webp" class="card-img-top" alt="Www icons created by Freepik - Flaticon">
+                    <div class="card-body">
+                        <h5 class="card-tittle">Search Engine Optimization</h5>
+                        <p class="card-text">Experienced more than a year in SEO Specialist</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!--Akhir jumbotron-->
-    </header>
-    
+    </section> <!--Akhir Skill-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
