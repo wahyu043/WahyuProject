@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Montserrat Alternates', sans-serif, ;
+    font-family: 'Montserrat', sans-serif;
     font-size: normal;
 }
 
@@ -37,3 +41,10 @@ a:hover {
     height: 512px;
 }
 
+.swipeup {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background: linear-gradient(to right, gray, white) !important;
+    border: solid 1px silver;
+}
