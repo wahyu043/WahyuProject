@@ -1,50 +1,45 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: normal;
 }
 
 a:hover {
-    color: gray;
+  color: gray;
 }
 
 #about-me {
-    background-color: grey;
+  background-color: grey;
 }
 
-.card-img-top {   
-    width: 64px;
-    height: 64px;
+.card-img-top {
+  width: 64px;
+  height: 64px;
 }
 
 .jumbotron {
-    background-color: grey;
-
+  background-color: grey;
 }
 
 .jumbo-img {
-    max-width: 100%;
-    width: 500px;
-    height: auto;
-    object-fit: contain;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 .profile-img {
-    width: 512px;
-    height: 512px;
+  width: 512px;
+  height: 512px;
 }
 
 .swipeup {
-    position: fixed;
-    bottom: 5%;
-    right: 5%;
-    background: linear-gradient(to right, gray, white) !important;
-    border: solid 1px silver;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: linear-gradient(to right, gray, white) !important;
+  border: solid 1px silver;
 }
