@@ -111,12 +111,9 @@
                 <div class="col-md-6 mt-5">
                     <h2>About Me</h2>
                     <p>
-                        My journey in the digital world began at Ahmad Dahlan University, where I honed my skills and
-                        developed a strong interest in SEO and website development.
-                    </p>
-                    <p>
-                        While SEO is my current focus, my fascination extends to the broader world of website
-                        development. I believe the two disciplines work hand-in-hand to create a powerful online
+                        My journey in the digital world began at CV. Rumahmesin. While SEO is my current focus, my
+                        fascination extends to the broader world of website development. I believe the two disciplines
+                        work hand-in-hand to create a powerful online
                         presence.
                     </p>
                     <p>
@@ -215,6 +212,11 @@
 
     </section> <!-- Akhir Project Handled -->
 
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Copyright Wahyu Mahmudiyanto. All rights reserved.</p>
+    </footer>
+
+
     <a href="#top"><button class="swipeup btn btn-outline-light">&#8679;</button></a>
 
     <!--Bootstrap JS-->
@@ -227,6 +229,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+    <script>
+        // Mendapatkan elemen dengan id 'currentYear'
+        const yearElement = document.getElementById('currentYear');
+        // Mengatur isi elemen tersebut dengan tahun saat ini
+        yearElement.textContent = new Date().getFullYear();
+    </script>
 
 </body>
 
