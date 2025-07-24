@@ -46,3 +46,7 @@ build/
 # Other
 coverage/
 .nyc_output/
+
+/public/css/output.css
+/public/css/tailwind-output.css
+/css/
