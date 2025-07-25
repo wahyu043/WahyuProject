@@ -47,4 +47,5 @@ coverage/
 .nyc_output/
 
 # Tailwind build outputs (ignore only the CSS, not the folder!)
+/public/css/output.css
 /public/css/tailwind-output.css
