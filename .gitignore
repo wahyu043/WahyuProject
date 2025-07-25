@@ -1,38 +1,37 @@
-# macOS
+# macOS system files
 .DS_Store
 Icon?
 
-# VSCode
+# VSCode settings
 .vscode/
 
-# Node.js
+# Node.js modules & log
 node_modules/
 npm-debug.log*
-.yarn/
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .pnpm-debug.log*
 
-# Logs & temp
+# Log & temp files
 logs/
 *.log
 *.tmp
 *.bak
 *~
 
-# System (Windows)
+# Windows system files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Build output
+# Build outputs (keep public folder, ignore only output files)
 dist/
 build/
 .next/
 .vercel/
 
-# Env & config
+# Env files
 .env
 .env.*
 .env.local
@@ -43,10 +42,10 @@ build/
 # Tailwind CSS source maps
 *.css.map
 
-# Other
+# Code coverage
 coverage/
 .nyc_output/
 
+# Tailwind build outputs (ignore only the CSS, not the folder!)
 /public/css/output.css
 /public/css/tailwind-output.css
-/css/
