@@ -657,6 +657,39 @@
       document.getElementById("footer-year").textContent =
         new Date().getFullYear();
     </script>
+    <!-- scroll spy-style animation -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll("main section");
+        const navLinks = document.querySelectorAll("nav a[href^='#']");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              const id = entry.target.getAttribute("id");
+              const navItem = document.querySelector(`nav a[href="#${id}"]`);
+
+              if (entry.isIntersecting) {
+                navLinks.forEach((link) =>
+                  link.classList.remove("text-green-400", "font-bold")
+                );
+                navItem.classList.add("text-green-400", "font-bold");
+                navItem.setAttribute("aria-current", "true");
+              } else {
+                navItem?.removeAttribute("aria-current");
+              }
+            });
+          },
+          {
+            rootMargin: "30% 0px -69% 0px", // fokus di tengah viewport
+            threshold: 0,
+          }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+      });
+    </script>
+
     <!-- Credit -->
     <script>
       console.log(
